@@ -6,7 +6,8 @@
 //
 
 class Shape {
-    
+public:
+    virtual double area() const = 0;
 };
 
 class Rectangle: public Shape {
@@ -15,6 +16,7 @@ class Rectangle: public Shape {
     
 public:
     Rectangle(double width, double height);
+    double area() const override;
 };
 
 class Square: public Shape {
@@ -22,6 +24,7 @@ class Square: public Shape {
     
 public:
     Square(double side);
+    double area() const override;
 };
 
 
@@ -30,4 +33,5 @@ class Circle: public Shape {
     
 public:
     Circle(double radius);
+    double area() const override;
 };
