@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		14E3F13427CC2A7700A3F602 /* p6-polymorphism */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "p6-polymorphism"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14E3F13727CC2A7700A3F602 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		14E3F14727CC2D2300A3F602 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				14E3F13727CC2A7700A3F602 /* main.cpp */,
+				14E3F14727CC2D2300A3F602 /* main.h */,
 			);
 			path = "p6-polymorphism";
 			sourceTree = "<group>";
