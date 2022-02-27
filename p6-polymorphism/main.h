@@ -5,33 +5,28 @@
 //  Created by Jake Short on 2/27/22.
 //
 
-class Shape {
-public:
-    virtual double area() const = 0;
-};
-
-class Rectangle: public Shape {
+class Rectangle {
     double _width;
     double _height;
     
 public:
     Rectangle(double width, double height);
-    double area() const override;
+    double area() const;
 };
 
-class Square: public Shape {
+class Square {
     double _side;
     
 public:
     Square(double side);
-    double area() const override;
+    double area() const;
 };
 
 
-class Circle: public Shape {
+class Circle {
     double _radius;
     
 public:
     Circle(double radius);
-    double area() const override;
+    double area() const;
 };
